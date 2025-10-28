@@ -1,0 +1,27 @@
+{
+  "lss": {
+    "scope": "Assistansersättning enligt Socialförsäkringsbalken kapitel 51 och LSS",
+    "must_provide": [
+      "hänvisa till rätt myndighet eller lagkapitel när möjligt",
+      "förklara osäkra regler som kan tolkas lokalt (t.ex. kommunalt ansvar)"
+    ]
+  },
+  "employment": {
+    "topics": [
+      "anställningsavtal",
+      "provanställning",
+      "schema",
+      "övertid",
+      "jour",
+      "beredskap"
+    ],
+    "collective_agreements_note": "Kollektivavtal varierar. Ge neutral vägledning och be användaren kontrollera sitt avtal."
+  },
+  "privacy": {
+    "pii_handling": "Utvecklaren sparar inga personuppgifter. All data laddas i kundens eget ChatGPT-konto.",
+    "redaction_hint": "Maskera alltid personnummer och känsliga uppgifter vid delning eller export."
+  }
+}
+
+
+Added policies.json (laws + privacy rules)
