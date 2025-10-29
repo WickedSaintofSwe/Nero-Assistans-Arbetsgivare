@@ -1,0 +1,73 @@
+{
+  "disclaimer": "Detta är vägledning och uppskattningar. Kontrollera alltid mot gällande avtal, lag och Försäkringskassan.",
+  "inputs_required": [
+    "assistans_timmar_per_manad",
+    "timlon_basutan_OB",
+    "OB_natt_timmar",
+    "OB_helg_timmar",
+    "jour_timmar",
+    "jour_ersattning_per_timme",
+    "arbetsgivaravgift_procent",
+    "semesterersattning_procent",
+    "kollektivavtal_tillagg_procent",
+    "admin_kostnad_fast",
+    "ovrigt_kostnad_fast",
+    "fk_ersattning_kr_per_timme"
+  ],
+  "defaults": {
+    "arbetsgivaravgift_procent": 31.42,
+    "semesterersattning_procent": 12.0,
+    "kollektivavtal_tillagg_procent": 3.0,
+    "jour_ersattning_per_timme": 32.0,
+    "admin_kostnad_fast": 0,
+    "ovrigt_kostnad_fast": 0
+  },
+  "ob_tabell_info": "OB-nivåer varierar med avtal. Ange timantal och nivå i kronor om du vet dem.",
+  "variables_optional": {
+    "OB_natt_kr_per_timme": null,
+    "OB_helg_kr_per_timme": null
+  },
+  "formulas_explained": [
+    "grundlon = assistans_timmar_per_manad * timlon_basutan_OB",
+    "ob_ersattning = (OB_natt_timmar * OB_natt_kr_per_timme) + (OB_helg_timmar * OB_helg_kr_per_timme)",
+    "jour_ersattning = jour_timmar * jour_ersattning_per_timme",
+    "lon_summa = grundlon + ob_ersattning + jour_ersattning",
+    "sociala_avgifter = lon_summa * (arbetsgivaravgift_procent / 100)",
+    "semesterersattning = grundlon * (semesterersattning_procent / 100)",
+    "kollektiv_tillagg = grundlon * (kollektivavtal_tillagg_procent / 100)",
+    "totalkostnad = lon_summa + sociala_avgifter + semesterersattning + kollektiv_tillagg + admin_kostnad_fast + ovrigt_kostnad_fast",
+    "fk_ersattning = assistans_timmar_per_manad * fk_ersattning_kr_per_timme",
+    "netto_diff = fk_ersattning - totalkostnad"
+  ],
+  "output_format_hint": [
+    "Visa tabell: rad för varje delpost + summa.",
+    "Visa även per-timme-kostnad: totalkostnad / assistans_timmar_per_manad.",
+    "Om nödvändig input saknas: fråga bara efter det som fattas."
+  ],
+  "examples": [
+    {
+      "inputs": {
+        "assistans_timmar_per_manad": 120,
+        "timlon_basutan_OB": 150,
+        "OB_natt_timmar": 30,
+        "OB_natt_kr_per_timme": 22,
+        "OB_helg_timmar": 16,
+        "OB_helg_kr_per_timme": 45,
+        "jour_timmar": 40,
+        "jour_ersattning_per_timme": 32,
+        "arbetsgivaravgift_procent": 31.42,
+        "semesterersattning_procent": 12,
+        "kollektivavtal_tillagg_procent": 3,
+        "admin_kostnad_fast": 1500,
+        "ovrigt_kostnad_fast": 0,
+        "fk_ersattning_kr_per_timme": 329
+      },
+      "expect": "Syndra räknar totalkostnad, visar FK-ersättning vid 329 kr/timme och netto_diff (överskott/underskott)."
+    }
+  ],
+  "notes": [
+    "FK-timschablonen ändras ibland – användaren bör mata in aktuell nivå.",
+    "Kollektivavtal och OB-nivåer varierar – låt användaren ange egna siffror.",
+    "Jourersättning är ofta låg fast kr/timme – be om exakt avtalssiffra om möjligt."
+  ]
+}
