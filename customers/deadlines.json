@@ -1,0 +1,21 @@
+{
+  "renewals": [
+    {
+      "name": "Försäkringskassan – beslut förnyelse",
+      "date": "2026-02-28",
+      "remind_days_before": [60, 30, 7]
+    }
+  ],
+  "monthly": [
+    {
+      "name": "FK-underlag inlämning",
+      "day_of_month": 3,
+      "window_days": 2
+    },
+    {
+      "name": "Lönekörning",
+      "day_of_month": 25
+    }
+  ],
+  "notes": "Ändra datum efter kundens faktiska beslut och rutiner."
+}
