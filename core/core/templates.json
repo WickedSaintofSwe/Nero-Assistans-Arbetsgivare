@@ -1,0 +1,38 @@
+{
+  "employment_contract": {
+    "title": "Anställningsavtal – Personlig Assistent",
+    "placeholders": [
+      "ARBETSGIVARE_NAMN", "ORGNR", "ASSISTENT_NAMN",
+      "STARTDATUM", "OMFATTNING_PER_VECKA", "LÖN", "KOLLEKTIVAVTAL"
+    ],
+    "body": "Detta avtal tecknas mellan ARBETSGIVARE_NAMN (ORGNR) och ASSISTENT_NAMN från och med STARTDATUM. Omfattning: OMFATTNING_PER_VECKA timmar/vecka. Lön: LÖN. Kollektivavtal: KOLLEKTIVAVTAL (om tillämpligt). Arbetsuppgifter: personliga assistansinsatser enligt gällande beslut. Sekretess och tystnadsplikt gäller. Anställningsform: enligt överenskommelse. Uppsägningstid: enligt lag/avtal."
+  },
+  "fk_message": {
+    "title": "Meddelande till Försäkringskassan",
+    "placeholders": ["DIARIE_NR", "KONTAKTNAMN", "TELEFON", "BRUKARE_NAMN"],
+    "body": "Hej Försäkringskassan,\\n\\nVi driver assistans i egen regi. Här bifogas månadens underlag enligt beslut DIARIE_NR. Vid frågor: KONTAKTNAMN, TELEFON.\\n\\nVänliga hälsningar,\\nBRUKARE_NAMN"
+  },
+  "confidentiality_policy": {
+    "title": "Sekretesspolicy för personliga assistenter",
+    "points": [
+      "All information om brukaren är konfidentiell.",
+      "Ingen delning av personuppgifter utan uttryckligt samtycke.",
+      "Brott mot sekretess kan leda till disciplinära följder och uppsägning."
+    ]
+  },
+  "recruitment_ad": {
+    "title": "Rekryteringsannons – Personlig Assistent",
+    "placeholders": ["ORT", "OMFATTNING", "KRAV", "ÖNSKVÄRT"],
+    "body": "Vi söker personliga assistenter i ORT. OMFATTNING. Arbetet sker i hemmet och i vardagen. KRAV. ÖNSKVÄRT. Vi värdesätter trygghet, respekt och integritet. Välkommen med ansökan."
+  },
+  "intro_plan": {
+    "title": "Introduktionsplan – Ny assistent",
+    "checkpoints": [
+      "Genomgång av sekretess och värdegrund",
+      "Rutiner för schema, frånvaro och vikarier",
+      "Arbetsmiljö: lyft, hjälpmedel, risker",
+      "Brukarens behov och kommunikation",
+      "Natt/beredskap – vad gäller och vem ringer man"
+    ]
+  }
+}
