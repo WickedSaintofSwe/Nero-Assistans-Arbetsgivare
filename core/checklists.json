@@ -1,0 +1,37 @@
+{
+  "own_regi_start": [
+    "Registrera som arbetsgivare hos Skatteverket (FA-skatt om du behöver fakturera).",
+    "Välj lönesystem och tidrapportering (enkelt i början räcker).",
+    "Skapa anställningsavtal för varje assistent (mall i templates.json).",
+    "Sätt arbetstidsregler: ordinarie tid, jour/beredskap, raster.",
+    "Inför rutiner: sjukfrånvaro, vikarier, arbetsmiljö (riskbedömning), skyddsombud.",
+    "Gör kontaktlista: FK-handläggare, kommun, HAB, vård.",
+    "Upprätta enkel sekretesspolicy för assistenter.",
+    "Skapa månadscykel: underlag till FK, lönekörning, avstämning."
+  ],
+  "monthly_admin": [
+    "Samla tidrapporter från assistenter.",
+    "Stäm av schema vs. faktiskt utfall och notera avvikelser.",
+    "Beräkna OB/övertid enligt avtal/regler.",
+    "Lönekörning och utbetalning.",
+    "Skicka/lagra underlag till Försäkringskassan enligt beslut.",
+    "Uppdatera kalender: förnyelser, läkarintyg, rehab/arbetsmiljö.",
+    "Backa upp dokument (i kundens egen miljö)."
+  ],
+  "hiring_flow": [
+    "Skriv kort annons (behov, tider, krav, personlighet).",
+    "Telefonavstämning (10 min) – grundkoll.",
+    "Intervju 1 (praktiskt fokus): schema, lyft, integritet, natt/beredska p.",
+    "Referenser.",
+    "Intervju 2 (värderingar) vid behov.",
+    "Erbjudande + anställningsavtal + introplan.",
+    "Introduktion: tystnadsplikt, rutiner, arbetsmiljö."
+  ],
+  "sick_leave_flow": [
+    "Assistent sjukanmäler i tid – notera i systemet.",
+    "Ordna vikarie enligt lista.",
+    "Dokumentera avvikelse och eventuell smittorisk.",
+    "Informera vid behov arbetsledare/brukare.",
+    "Följ kollektivavtal/regler för sjuklön och frånvaro."
+  ]
+}
