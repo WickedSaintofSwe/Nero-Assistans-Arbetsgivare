@@ -1,0 +1,22 @@
+{
+  "fk_monthly_underlag": {
+    "title": "FK – Månadens underlag",
+    "placeholders": ["DIARIE_NR", "MANAD", "Josefin Gade", "TELEFON", "BRUKARE_David Möller"],
+    "body": "Hej Försäkringskassan,\\n\\nHär kommer månadens underlag för MANAD enligt beslut DIARIE_NR. Vid frågor når ni KONTAKTNAMN på TELEFON.\\n\\nVänliga hälsningar,\\nBRUKARE_NAMN"
+  },
+  "fk_andrade_forhallanden": {
+    "title": "FK – Meddelande om ändrade förhållanden",
+    "placeholders": ["DIARIE_NR", "BESKRIVNING", "STARTDATUM", "BRUKARE_NAMN"],
+    "body": "Hej Försäkringskassan,\\n\\nJag behöver anmäla ändrade förhållanden gällande mitt beslut DIARIE_NR. Från och med STARTDATUM: BESKRIVNING.\\n\\nVänligen bekräfta mottagandet och om ni behöver ytterligare uppgifter.\\n\\nMed vänlig hälsning,\\nBRUKARE_NAMN"
+  },
+  "hab_intyg_begar": {
+    "title": "Begäran om intyg/underlag – HAB",
+    "placeholders": ["HAB_KONTAKT", "BRUKARE_David Möller", "SYFTE"],
+    "body": "Hej HAB_KONTAKT,\\n\\nJag behöver ett intyg/underlag för SYFTE. Meddela gärna vilken information ni behöver från mig och ungefärlig handläggningstid.\\n\\nTack!\\nBRUKARE_NAMN"
+  },
+  "kommun_kontakt": {
+    "title": "Kontakt med kommunen – assistans/insatser",
+    "placeholders": ["ENHET", "BRUKARE_David Möller", "ARANDE"],
+    "body": "Hej ENHET,\\n\\nJag önskar kontakt kring ärendet ARANDE. Kan ni återkomma med rätt handläggare och hur vi går vidare?\\n\\nTack,\\nBRUKARE_NAMN"
+  }
+}
