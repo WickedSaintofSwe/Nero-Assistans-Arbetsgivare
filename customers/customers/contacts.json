@@ -1,0 +1,25 @@
+{
+  "fk": {
+    "handlaggare": "REPLACE_NAME",
+    "email": "REPLACE_EMAIL",
+    "phone": "REPLACE_PHONE"
+  },
+  "hab": {
+    "kontakt": "REPLACE_NAME",
+    "email": "REPLACE_EMAIL",
+    "phone": "REPLACE_PHONE"
+  },
+  "kommun": {
+    "enhet": "REPLACE_UNIT",
+    "email": "REPLACE_EMAIL",
+    "phone": "REPLACE_PHONE"
+  },
+  "healthcare": [
+    {
+      "role": "Läkare",
+      "name": "REPLACE_NAME",
+      "clinic": "REPLACE_CLINIC",
+      "phone": "REPLACE_PHONE"
+    }
+  ]
+}
