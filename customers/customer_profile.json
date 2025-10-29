@@ -1,0 +1,22 @@
+{
+  "customer": {
+    "name": "David Möller",
+    "personnummer": "19850526-6599",
+    "address_city": "Mejerigatan 15 a, 235 31 Vellinge"
+  },
+  "assistansdecision": {
+    "fk_diary_number": "REPLACE_DIARIE",
+    "valid_until": "2026-04-30",
+    "hours_per_week": 120,
+    "notes": "Jour 23-06:30"
+  },
+  "work_rules": {
+    "weekly_hours_target": 40,
+    "allow_oncall_nights": true,
+    "collective_agreement": "REPLACE_ORGANISATION_OR_NONE"
+  },
+  "preferences": {
+    "tone": "lugnt, vänligt, rakt",
+    "explanations_level": "enkel_svenska"
+  }
+}
