@@ -1,0 +1,29 @@
+{
+  "disclaimer": "Vägledning och beräkningar. Kontrollera mot avtal, lag och FK.",
+  "input_kallor": [
+    "economy/assistants/assistants.json",
+    "economy/schema.json",
+    "economy/wages.json",
+    "economy/expenses.json"
+  ],
+  "formler": [
+    "grundlon_per_assistent = timmar_ordinarie * timlon_bas",
+    "ob_ersattning = (vardag_kvall_timmar * ob.vardag_kvall.tillagg_kr_per_tim) + (natt_timmar * ob.natt.tillagg_kr_per_tim) + (helg_timmar * ob.helg.tillagg_kr_per_tim) + (storhelg_timmar * ob.storhelg.tillagg_kr_per_tim)",
+    "jour_ersattning = jour.timmar * jour.ersattning_kr_per_tim",
+    "lon_summa = grundlon_per_assistent + ob_ersattning + jour_ersattning",
+    "semesterersattning = lon_summa * (wages.standard.semesterersattning_procent / 100)",
+    "pensionsavsattning = lon_summa * (wages.standard.pensionsavsattning_procent / 100)",
+    "sociala_avgifter = (lon_summa + semesterersattning + pensionsavsattning) * (wages.standard.arbetsgivaravgift_procent / 100)",
+    "totalkostnad_per_assistent = lon_summa + semesterersattning + pensionsavsattning + sociala_avgifter",
+    "summa_totalkostnad = SUM(totalkostnad_per_assistent)",
+    "fk_ersattning = fk_timschablon * SUM(timmar_ordinarie + ob-timmar + (jour.timmar * jour.omvandling_till_arbetstid_faktor))",
+    "netto_diff = fk_ersattning - summa_totalkostnad"
+  ],
+  "output": {
+    "visa_per_assistent": true,
+    "visa_summa": true,
+    "visa_kostnad_per_timme": true,
+    "tabell": true
+  },
+  "om_nagot_saknas": "Fråga efter saknade siffror (timlon_bas, timmar, OB/jour)."
+}
