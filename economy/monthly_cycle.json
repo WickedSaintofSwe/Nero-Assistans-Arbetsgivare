@@ -1,0 +1,9 @@
+{
+  "manadscykel": [
+    {"period": "1–10", "aktivitet": "Samla tidrapporter, OB/jour-utfall, kvitton"},
+    {"period": "11–20", "aktivitet": "Skapa löneunderlag per assistent, beräkna sociala avgifter/pension"},
+    {"period": "21–25", "aktivitet": "Betala löner, arbetsgivaravgifter, pension"},
+    {"deadline": "senast 3:e nästa månad", "aktivitet": "Skicka underlag till Försäkringskassan"},
+    {"arsvis": true, "aktivitet": "Årsavstämning och revision"}
+  ]
+}
