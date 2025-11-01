@@ -1,0 +1,30 @@
+{
+  "samtycke": {
+    "nar_behovs": [
+      "Dela information med vård/HAB/kommun",
+      "Publicera foto/film",
+      "Överlämna journalkopia"
+    ],
+    "krav": ["Syfte", "Vilka uppgifter", "Giltighetstid", "Möjlighet att återkalla"],
+    "mall_ref": "templates.json -> gdpr_samtycke"
+  },
+  "sekretess": [
+    "Signerat sekretessavtal för alla assistenter",
+    "Ingen PNR i okrypterad e-post",
+    "Behovsminimering vid delning"
+  ],
+  "gallring": {
+    "tidrapporter": "Spara enligt lag/avtal (rekommenderat minst 7 år för bokföring).",
+    "avvikelser": "Spara minsta möjliga tid, ange skäl.",
+    "delegeringar": "Spara under giltighet + 1 år."
+  },
+  "saker_delning": [
+    "Lösenordsskyddade dokument",
+    "Krypterad delning vid PNR/hälsa",
+    "Åtkomst endast till de som behöver"
+  ],
+  "register": {
+    "enkelt_register": ["Ändamål", "Kategorier av uppgifter", "Lagringstid", "Tekniska/organisatoriska skydd"],
+    "ansvarig": "Utse kontaktperson för dataskyddsfrågor."
+  }
+}
