@@ -1,0 +1,21 @@
+{
+  "tillatet": {
+    "loner": true,
+    "arbetsgivaravgifter": true,
+    "forsakringar": true,
+    "arbetsklader": "Ja om används i tjänst",
+    "utbildning": "Ja om relevant för uppdraget",
+    "arbetsresor": "Ja vid uppdrag/aktivitet med brukaren",
+    "administration": "Ja, skäligt belopp",
+    "revision": true,
+    "arbetsmiljoutrustning": true,
+    "hygienartiklar_brukare": true,
+    "mat_brukare": false,
+    "gavor": false,
+    "resor_utanf_uppdrag": false
+  },
+  "kvittoregler": {
+    "maste_innehalla": ["datum", "belopp", "säljare/företagsnamn", "syfte kopplat till assistans"],
+    "format": ["PDF", "foto", "skannad fil"]
+  }
+}
