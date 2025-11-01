@@ -1,0 +1,41 @@
+{
+  "customer": "David Möller",
+  "fk_decision": {
+    "diarie_nr": "140230321663_2015-0017919049",
+    "personnummer": "REDACTED",
+    "issued_date": "2015-07-14",
+    "valid_from": "2015-05-01",
+    "description": "Utökad assistansersättning. Ersättning för i genomsnitt 152 timmar per vecka.",
+    "approved_periods": [
+      {"period": "maj–juli 2015", "total_hours": 1997},
+      {"period": "augusti 2015–januari 2016", "total_hours": 3995},
+      {"period": "februari–juli 2016", "total_hours": 3951},
+      {"period": "februari–juli 2017", "total_hours": 3930}
+    ],
+    "weekly_distribution": {
+      "grundläggande_behov": {
+        "hours": 62,
+        "minutes": 15
+      },
+      "andra_personliga_behov": {
+        "hours": 89,
+        "minutes": 45,
+        "double_assistance_hours": 23,
+        "double_assistance_minutes": 45
+      },
+      "total_hours_per_week": 152
+    },
+    "hospitalization_rule": "Rätt till assistansersättning upp till fyra veckor vid sjukhusvistelse.",
+    "legal_basis": [
+      "51 kap. 2–4, 9 och 11 §§ socialförsäkringsbalken",
+      "106 kap. 24 och 25 §§ socialförsäkringsbalken",
+      "RFFS 1993:24 (Riksförsäkringsverkets föreskrifter om assistansersättning)"
+    ],
+    "fk_contact": {
+      "name": "Ingrid Frykman",
+      "unit": "FV Syd",
+      "phone": "010-118 66 44"
+    },
+    "note": "Beslutet gäller tills nytt beslut fattas. Antal timmar justeras i februari varje år."
+  }
+}
