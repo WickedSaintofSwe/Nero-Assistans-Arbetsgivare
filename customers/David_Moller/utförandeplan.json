@@ -1,0 +1,83 @@
+{
+  "customer": "David Möller",
+  "created_by": ["David Möller", "Bjarne Gade", "Syndra Assistans"],
+  "last_reviewed": "2025-10-31",
+  "diagnos": "Lätt utvecklingsstörning och cerebral pares",
+  "assistansbeslut": "Försäkringskassan 2015-07-14, beviljad 152 timmar per vecka (62 h grundläggande, 89 h 45 min övriga, varav 23 h 45 min dubbel assistans).",
+  "om_personen": {
+    "bakgrund": "Adopterad från Indien, gillar sport, film och politik.",
+    "intressen": "Tittar mycket på film, gillar hockey och utflykter.",
+    "personlighet": "Glad, social och gillar att vara delaktig när det går.",
+    "viktigt_for_mig": "Att få påverka mitt schema och mina aktiviteter. Att de som jobbar hos mig känner mig väl."
+  },
+  "mal_overgripande": "Att leva ett tryggt, aktivt och självständigt liv med stöd av mina assistenter.",
+  "delomraden": {
+    "larande": {
+      "mal": "Att förstå och kunna fatta beslut i vardagliga situationer.",
+      "genomforande": "Assistenter hjälper David att navigera i val, beslut och ny information. De förklarar och stöttar vid behov.",
+      "uppfoljning": "Utvärderas vid genomgång av plan var sjätte månad."
+    },
+    "vardagliga_rutiner": {
+      "mal": "Att kunna hantera dagliga rutiner och krav utan stress.",
+      "genomforande": "Assistenter stöttar David i struktur, tidsplanering och vid stressiga moment. De skapar lugn miljö och tydliga rutiner.",
+      "uppfoljning": "Observation och samtal vid planmöten."
+    },
+    "kommunikation": {
+      "mal": "Att kommunicera självständigt och förstås av andra.",
+      "genomforande": "David använder bliss och dator. Assistenter tolkar, förklarar och hjälper till vid samtal och telefonsituationer.",
+      "uppfoljning": "Följs upp vid genomgång av kommunikationshjälpmedel."
+    },
+    "forflyttning": {
+      "mal": "Bibehålla förmåga till rörelse och aktivitet.",
+      "genomforande": "David använder permobil. Assistenter lyfter vid behov och stöttar vid förflyttning till dusch och toalett.",
+      "uppfoljning": "Assistent antecknar eventuella förändringar i styrka och rörlighet."
+    },
+    "personlig_vard": {
+      "mal": "Att delta så mycket som möjligt i egen hygien och vård.",
+      "genomforande": {
+        "dusch": "Assistent lyfter till duschstol, hjälper med tvätt och sköljning.",
+        "tandborstning": "Assistent lägger på tandkräm, David borstar själv så långt han klarar.",
+        "rakning": "Assistent hjälper med rakning.",
+        "måltider": "David äter själv med tillsyn. Assistent dukar, serverar och är observant på att han äter.",
+        "på_avklädning": "Assistent hjälper med kläder, David deltar efter förmåga."
+      },
+      "uppfoljning": "Vid varje revidering av plan eller vid förändrat hälsotillstånd."
+    },
+    "hemliv": {
+      "mal": "Att ha ett tryggt, rent och organiserat hem.",
+      "genomforande": {
+        "matlagning": "Assistent lagar mat, David deltar vid dukning och uppläggning.",
+        "städning": "Assistent städar bostaden varje vecka, David närvarar ibland.",
+        "tvätt": "Assistent hjälper med tvätt, torkning och vikning.",
+        "inköp": "Assistent följer med på inköp eller handlar enligt lista.",
+        "struktur": "David har fasta rutiner för måltider, städning och vila."
+      },
+      "uppfoljning": "Samtal om trivsel och struktur vid planmöten."
+    },
+    "sociala_relationer": {
+      "mal": "Att delta i aktiviteter och behålla sociala kontakter.",
+      "genomforande": "Assistenter hjälper David till träning, fritidsaktiviteter och socialt umgänge. Hjälper honom uttrycka sig i möten.",
+      "uppfoljning": "Följs upp genom samtal med David och personal."
+    },
+    "arbete_och_ekonomi": {
+      "mal": "Att behålla insikt och delaktighet i ekonomi.",
+      "genomforande": "Ekonomin sköts av god man, assistenter håller David informerad.",
+      "uppfoljning": "God man och assistansansvarig stämmer av årligen."
+    },
+    "samhallsliv": {
+      "mal": "Att delta i samhällsaktiviteter och känna gemenskap.",
+      "genomforande": "Assistenter följer med till möten och aktiviteter, hjälper till med kommunikation vid behov.",
+      "uppfoljning": "Samtal med David om deltagande och trivsel."
+    },
+    "trygghet": {
+      "mal": "Att känna sig trygg hemma och på natten.",
+      "genomforande": "Assistent finns nära under natten. Larm finns i bostaden. David kan alltid påkalla hjälp.",
+      "uppfoljning": "Diskuteras vid revidering av planen eller vid oro."
+    }
+  },
+  "sammanfattning": {
+    "overgripande_mal": "Att klara vardagen och delta i aktiviteter som jag tycker om.",
+    "metod": "Personlig assistans med tydlig struktur och uppföljning.",
+    "kundens_deltagande": true
+  }
+}
