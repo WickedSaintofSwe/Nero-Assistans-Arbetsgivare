@@ -1,0 +1,11 @@
+{
+  "standard": {
+    "semesterersattning_procent": 12.0,
+    "arbetsgivaravgift_procent": 31.42,
+    "pensionsavsattning_procent": 4.5
+  },
+  "fk": {
+    "timschablon_kr": 329
+  },
+  "_note": "Ändra schablon till aktuell nivå när du vet den."
+}
