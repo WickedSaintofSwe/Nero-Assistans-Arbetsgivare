@@ -1,0 +1,28 @@
+{
+  "tidrapport_standard": ["datum", "start", "slut", "OB/jour-markering", "signatur"],
+  "avvikelselogg": ["datum", "händelse", "åtgärd", "ansvarig"],
+  "vikarie_rutin": ["larmlista", "reservlista", "introduktionsblad till vikarie"],
+  "nyckel_larm": ["kvittenslista", "spärr vid borttappad", "larmkodshantering"],
+  "dubbel_attest": "Två personer attesterar utbetalningar/inköp över en beloppsgräns.",
+  "incident_form": [
+    "vad_hände",
+    "plats_tid",
+    "inblandade",
+    "omedelbara_åtgärder",
+    "vidare_åtgärder",
+    "anmälan_gjord_till (kommun/IVO/polis)",
+    "uppföljning_datum"
+  ],
+  "onboarding": [
+    "ID-kontroll, anställningsavtal, sekretess",
+    "Introduktion: HLR/brand/ergonomi",
+    "Genomgång av brukarspecifika rutiner",
+    "Nyckel/larmkvittens"
+  ],
+  "offboarding": [
+    "Återlämning av nycklar/larm",
+    "Radering av åtkomst",
+    "Sekretess fortsatt gällande",
+    "Slutrapport/överlämning"
+  ]
+}
