@@ -1,0 +1,13 @@
+{
+  "ob": {
+    "vardag_kvall": {"start": "19:00", "end": "22:00", "tillagg_kr_per_tim": 22.50},
+    "natt": {"start": "22:00", "end": "06:00", "tillagg_kr_per_tim": 45.50},
+    "helg": {"start": "00:00", "end": "24:00", "tillagg_kr_per_tim": 45.50},
+    "storhelg": {"datum_mm_dd": ["01-01","01-06","05-01","12-25","12-26"], "tillagg_kr_per_tim": 96.00}
+  },
+  "jour": {
+    "ersattning_kr_per_tim": 32.0,
+    "omvandling_till_arbetstid_faktor": 0.13
+  },
+  "_note": "OB-nivåer varierar med kollektivavtal. Uppdatera vid behov."
+}
