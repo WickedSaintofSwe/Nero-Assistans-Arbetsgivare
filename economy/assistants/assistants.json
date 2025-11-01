@@ -1,0 +1,47 @@
+{
+  "assistenter": [
+    {
+      "namn": "Assistent A (fast)",
+      "timlon_bas": 185,
+      "timmar_ordinarie": 120,
+      "ob": {
+        "vardag_kvall_timmar": 12,
+        "natt_timmar": 30,
+        "helg_timmar": 8,
+        "storhelg_timmar": 0
+      },
+      "jour": {
+        "timmar": 20
+      }
+    },
+    {
+      "namn": "Assistent B (fast högre nivå)",
+      "timlon_bas": 200,
+      "timmar_ordinarie": 100,
+      "ob": {
+        "vardag_kvall_timmar": 10,
+        "natt_timmar": 20,
+        "helg_timmar": 6,
+        "storhelg_timmar": 0
+      },
+      "jour": {
+        "timmar": 10
+      }
+    },
+    {
+      "namn": "Assistent C (vikarie)",
+      "timlon_bas": 170,
+      "timmar_ordinarie": 60,
+      "ob": {
+        "vardag_kvall_timmar": 4,
+        "natt_timmar": 8,
+        "helg_timmar": 4,
+        "storhelg_timmar": 0
+      },
+      "jour": {
+        "timmar": 0
+      }
+    }
+  ],
+  "_note": "Byt siffror per verkligt schema. OB/jour-ersättningar slås upp via economy/schema.json."
+}
