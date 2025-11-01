@@ -1,0 +1,34 @@
+{
+  "lss_sfb": {
+    "forklara": "Assistans i egen regi kräver ordning på timmar, löner, arbetsmiljö och redovisning till FK.",
+    "nar_kontakta": ["Beslutsförnyelse", "Ändrade förhållanden", "Avvikande timmar", "Misstänkt fusk/fel"],
+    "hoga_nivan_kallor": ["LSS", "SFB 51 kap", "Arbetstidslagen (ATL)"],
+    "utbetalningskrav_fk": [
+      "Spårbara tidrapporter per assistent",
+      "Underlag för OB/jour",
+      "Löneunderlag och sociala avgifter",
+      "Rimliga adminkostnader",
+      "Kvitton kopplade till uppdraget"
+    ]
+  },
+  "arbetstid": {
+    "dygnsvila_timmar": 11,
+    "veckovila_timmar": 36,
+    "jour_hint": "Jour regleras i avtal. Ange faktisk ersättning och ev. omräkning till arbetstid.",
+    "varning": "Planera schema så dygns-/veckovila respekteras. Dokumentera avsteg och komp."
+  },
+  "lex_sarah": {
+    "princip": "Allvarliga missförhållanden ska utredas och anmälas.",
+    "exempel": ["Allvarlig brist i omsorg/säkerhet", "Kränkning", "Våld/hot", "Allvarlig hygienbrist"],
+    "steg": ["Dokumentera händelsen", "Skydda brukaren omedelbart", "Informera ansvarig", "Gör bedömning och vid behov anmälan till kommunen/IVO"]
+  },
+  "delegering": {
+    "krav": "Medicinska insatser endast med formell delegering.",
+    "dokument": ["Giltighetstid", "Ansvarig vårdgivare", "Omfattning"],
+    "lagra": "Spara kopia av delegering i personakten."
+  },
+  "forsakring": {
+    "obligatoriskt": ["Arbetsskada/TFA", "Ansvarsförsäkring"],
+    "rek": ["Tjänstereseförsäkring"]
+  }
+}
