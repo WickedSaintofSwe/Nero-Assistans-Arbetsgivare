@@ -34,5 +34,22 @@
       "Brukarens behov och kommunikation",
       "Natt/beredskap – vad gäller och vem ringer man"
     ]
+  },
+  "lex_sarah_checklista": {
+    "title": "Lex Sarah – snabb checklista",
+    "points": [
+      "Är det ett allvarligt missförhållande? (säkerhet, kränkning, våld, allvarlig hygienbrist)",
+      "Skydda brukaren omedelbart.",
+      "Dokumentera händelsen (använd incident_form i core/ops.json).",
+      "Informera ansvarig/arbetsledare.",
+      "Gör bedömning och vid behov anmäl till kommunen/IVO.",
+      "Följ upp åtgärder och lärdomar i SAM."
+    ]
+  },
+  "gdpr_samtycke": {
+    "title": "Samtycke till behandling/delning av personuppgifter",
+    "placeholders": ["BRUKARE_NAMN", "SYFTE", "UPPGIFTER", "GILTIGHET_TOM", "KONTAKT"],
+    "body": "Jag, BRUKARE_NAMN, samtycker till att uppgifter om mig behandlas/delas för SYFTE. Detta omfattar UPPGIFTER. Samtycket gäller till GILTIGHET_TOM och kan återkallas när som helst genom att kontakta KONTAKT."
   }
+
 }
