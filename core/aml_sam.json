@@ -1,0 +1,28 @@
+{
+  "sam_cykel": ["Undersöka risker", "Riskbedöma", "Åtgärda", "Följa upp"],
+  "riskomraden": [
+    "Lyft och förflyttning",
+    "Hot och våld",
+    "Smitta/hygien",
+    "Natt/ensamarbete",
+    "Resor/utemiljö",
+    "Brand/utrymning",
+    "Ergonomi/hjälpmedel"
+  ],
+  "mallar": {
+    "riskbedomning": ["risk", "sannolikhet", "konsekvens", "åtgärd", "ansvarig", "deadline"],
+    "atgardsplan": ["åtgärd", "budget", "klart_datum", "uppföljning"]
+  },
+  "intro_krav": [
+    "HLR/Första hjälpen",
+    "Brand/utrymning",
+    "Hjälpmedel/ergonomi",
+    "Sekretess/GDPR",
+    "Rutiner för natt/ensamhet",
+    "Avvikelse/incidentrapport"
+  ],
+  "dokumentation": {
+    "var": "Förvara SAM-dokument samlat (digitalt) med versionsdatum.",
+    "uppfoljning": "Minst årligen eller vid större förändring."
+  }
+}
